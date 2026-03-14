@@ -216,6 +216,25 @@ async function generateQR(): Promise<void> {
             break;
     }
 
+    if (!data.trim()) {
+        try {
+            const ctx = canvas.getContext('2d');
+            if (ctx) {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                ctx.fillStyle = '#f3f4f6';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+                ctx.fillStyle = '#9ca3af';
+                ctx.font = '14px Inter, sans-serif';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText('Enter data to generate QR', canvas.width / 2, canvas.height / 2);
+            }
+        } catch (e) {
+            console.error('Placeholder failed:', e);
+        }
+        return;
+    }
+
     try {
         await QRCode.toCanvas(canvas, data, {
             width: size,
