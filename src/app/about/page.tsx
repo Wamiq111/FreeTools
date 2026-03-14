@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
 export const metadata = {
-    title: 'About Us | FreeToolsHub',
-    description: 'Learn more about FreeToolsHub, our mission to provide high-quality, privacy-first browser tools for everyone.',
+    title: 'About Us | Tools Repository',
+    description: 'Learn more about Tools Repository, our mission to provide high-quality, privacy-first browser tools for everyone.',
 };
 
 export default function AboutPage() {
@@ -17,10 +17,10 @@ export default function AboutPage() {
                     WebkitBackgroundClip: 'text',
                     WebkitTextFillColor: 'transparent'
                 }}>
-                    About FreeToolsHub
+                    About Tools Repository
                 </h1>
                 <p style={{ fontSize: 'var(--fs-lg)', lineHeight: '1.8', color: 'var(--color-text-secondary)', marginBottom: 'var(--space-6)' }}>
-                    FreeToolsHub was born out of a simple idea: the web should be full of useful, high-quality, and free utility tools that don't compromise your privacy.
+                    Tools Repository was born out of a simple idea: the web should be full of useful, high-quality, and free utility tools that don't compromise your privacy.
                     We believe that developers, students, and professionals shouldn't have to navigate through bloated websites or sign up for accounts just to format a JSON file or calculate a percentage.
                 </p>
             </section>
@@ -44,7 +44,7 @@ export default function AboutPage() {
                     <div style={{ fontSize: '24px', marginBottom: 'var(--space-3)' }}>🆓</div>
                     <h3 style={{ marginBottom: 'var(--space-2)', fontWeight: 'var(--fw-bold)', color: 'var(--color-text)' }}>Always Free</h3>
                     <p style={{ fontSize: 'var(--fs-sm)', color: 'var(--color-text-secondary)', lineHeight: '1.6' }}>
-                        No subscriptions, no "pro" versions, no hidden fees. FreeToolsHub is a community resource that will remain free forever.
+                        No subscriptions, no "pro" versions, no hidden fees. Tools Repository is a community resource that will remain free forever.
                     </p>
                 </div>
             </div>

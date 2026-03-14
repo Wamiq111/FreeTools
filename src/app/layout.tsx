@@ -8,7 +8,7 @@ import './globals.css';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-    title: 'FreeToolsHub — Free Online Tools for Everyday Use',
+    title: 'Tools Repository — Free Online Tools for Everyday Use',
     description: 'A collection of 50 free, fast, and easy-to-use utility tools including text converters, calculators, generators, and developer tools.',
 };
 
@@ -59,7 +59,7 @@ export default function RootLayout({
                                     color: 'var(--color-text)',
                                     fontFamily: 'var(--font-display)',
                                     margin: 0
-                                }}>FreeToolsHub</h1>
+                                }}>Tools Repository</h1>
                             </Link>
 
                             <nav style={{ display: 'flex', gap: 'var(--space-6)', alignItems: 'center' }}>
@@ -88,7 +88,7 @@ export default function RootLayout({
                                 <div className="footer__column">
                                     <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', marginBottom: 'var(--space-4)' }}>
                                         <span style={{ fontSize: '20px' }}>💡</span>
-                                        <h3 style={{ fontSize: 'var(--fs-lg)', fontWeight: 'var(--fw-bold)', margin: 0, color: 'var(--color-text)' }}>FreeToolsHub</h3>
+                                        <h3 style={{ fontSize: 'var(--fs-lg)', fontWeight: 'var(--fw-bold)', margin: 0, color: 'var(--color-text)' }}>Tools Repository</h3>
                                     </div>
                                     <p style={{ color: 'var(--color-text-secondary)', fontSize: 'var(--fs-sm)', lineHeight: '1.6' }}>
                                         High-performance browser tools for developers and creators. No tracking, 100% free, forever.
@@ -109,7 +109,7 @@ export default function RootLayout({
                             </div>
 
                             <div className="footer__bottom" style={{ paddingTop: 'var(--space-6)', borderTop: '1px solid var(--color-border)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                <p style={{ fontSize: 'var(--fs-xs)', color: 'var(--color-text-muted)' }}>&copy; {new Date().getFullYear()} FreeToolsHub. Crafted for the modern web.</p>
+                                <p style={{ fontSize: 'var(--fs-xs)', color: 'var(--color-text-muted)' }}>&copy; {new Date().getFullYear()} Tools Repository. Crafted for the modern web.</p>
                                 <div style={{ display: 'flex', gap: 'var(--space-4)', fontSize: '18px', filter: 'grayscale(1) opacity(0.5)' }}>
                                     <span>⚛️</span>
                                     <span>⚡</span>

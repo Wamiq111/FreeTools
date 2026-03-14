@@ -184,7 +184,7 @@ export default function Home() {
                 )}
             </div>
 
-            <FAQSection faqs={HOME_FAQS} title="FreeToolsHub - Frequently Asked Questions" />
+            <FAQSection faqs={HOME_FAQS} title="Tools Repository - Frequently Asked Questions" />
         </>
     );
 }

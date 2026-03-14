@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
 export const metadata = {
-    title: 'Privacy Policy | FreeToolsHub',
-    description: 'Privacy Policy for FreeToolsHub. Learn how we handle your data with our privacy-first, browser-based tools.',
+    title: 'Privacy Policy | Tools Repository',
+    description: 'Privacy Policy for Tools Repository. Learn how we handle your data with our privacy-first, browser-based tools.',
 };
 
 export default function PrivacyPage() {
@@ -42,7 +42,7 @@ export default function PrivacyPage() {
                     <section style={{ marginBottom: '40px' }}>
                         <h2 style={{ fontSize: '1.25rem', fontWeight: '700', color: '#0f172a', marginBottom: '16px' }}>1. Introduction</h2>
                         <p>
-                            Welcome to FreeToolsHub. We respect your privacy and are committed to protecting it. This Privacy Policy explains
+                            Welcome to Tools Repository. We respect your privacy and are committed to protecting it. This Privacy Policy explains
                             our practices regarding the collection, use, and disclosure of your information when you use our website and tools.
                         </p>
                     </section>
@@ -66,7 +66,7 @@ export default function PrivacyPage() {
                         }}></div>
                         <h3 style={{ fontSize: '1.125rem', fontWeight: '700', color: '#5b21b6', marginBottom: '8px' }}>The Core Principle</h3>
                         <p style={{ fontSize: '1rem', color: '#4c1d95' }}>
-                            <strong>FreeToolsHub is a privacy-first platform.</strong> All tools provided on this website are executed
+                            <strong>Tools Repository is a privacy-first platform.</strong> All tools provided on this website are executed
                             entirely within your web browser. This means that any data you input into our tools never leaves your
                             local machine and is never sent to our servers.
                         </p>
@@ -110,8 +110,8 @@ export default function PrivacyPage() {
                         <h2 style={{ fontSize: '1.25rem', fontWeight: '700', color: '#0f172a', marginBottom: '16px' }}>6. Contact Us</h2>
                         <p>
                             If you have any questions about this Privacy Policy, please contact us at{' '}
-                            <Link href="mailto:support@freetoolshub.com" style={{ color: '#6b46c1', fontWeight: '600', textDecoration: 'none' }}>
-                                support@freetoolshub.com
+                            <Link href="mailto:support@toolrepository.com" style={{ color: '#6b46c1', fontWeight: '600', textDecoration: 'none' }}>
+                                support@toolrepository.com
                             </Link>.
                         </p>
                     </section>

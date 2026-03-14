@@ -1,4 +1,4 @@
-const THEME_KEY = 'freetoolshub-theme';
+const THEME_KEY = 'toolsrepository-theme';
 
 export function initTheme(): void {
     const saved = localStorage.getItem(THEME_KEY);

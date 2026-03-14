@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     if (!tool) return {};
 
     return {
-        title: `${tool.name} | FreeToolsHub`,
+        title: `${tool.name} | Tools Repository`,
         description: tool.description,
         keywords: tool.keywords.join(', '),
     };

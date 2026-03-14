@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
 export const metadata = {
-    title: 'Advertise With Us | FreeToolsHub',
-    description: 'Partner with FreeToolsHub to reach thousands of developers, students, and digital professionals every day.',
+    title: 'Advertise With Us | Tools Repository',
+    description: 'Partner with Tools Repository to reach thousands of developers, students, and digital professionals every day.',
 };
 
 export default function AdvertisePage() {
@@ -19,11 +19,11 @@ export default function AdvertisePage() {
                     WebkitTextFillColor: 'transparent',
                     lineHeight: '1.2'
                 }}>
-                    Grow Your Brand with <br /> FreeToolsHub
+                    Grow Your Brand with <br /> Tools Repository
                 </h1>
                 <p style={{ fontSize: 'var(--fs-lg)', color: 'var(--color-text-secondary)', maxWidth: '700px', margin: '0 auto', lineHeight: '1.8' }}>
                     Connect with a highly engaged audience of developers, creators, and tech enthusiasts.
-                    FreeToolsHub provides the perfect platform to showcase your products and services.
+                    Tools Repository provides the perfect platform to showcase your products and services.
                 </p>
             </section>
 

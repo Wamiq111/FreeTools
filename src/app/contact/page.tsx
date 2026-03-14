@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
 export const metadata = {
-    title: 'Contact Us | FreeToolsHub',
-    description: 'Get in touch with FreeToolsHub for support, feedback, or tool suggestions.',
+    title: 'Contact Us | Tools Repository',
+    description: 'Get in touch with Tools Repository for support, feedback, or tool suggestions.',
 };
 
 export default function ContactPage() {
@@ -31,7 +31,7 @@ export default function ContactPage() {
                     <p style={{ fontSize: 'var(--fs-sm)', color: 'var(--color-text-secondary)', marginBottom: 'var(--space-6)' }}>
                         For general inquiries and support, feel free to drop us an email.
                     </p>
-                    <a href="mailto:support@freetoolshub.com" style={{ color: 'var(--color-primary)', fontWeight: 'var(--fw-bold)', textDecoration: 'none' }}>support@freetoolshub.com</a>
+                    <a href="mailto:support@toolrepository.com" style={{ color: 'var(--color-primary)', fontWeight: 'var(--fw-bold)', textDecoration: 'none' }}>support@toolrepository.com</a>
                 </div>
             </div>
 

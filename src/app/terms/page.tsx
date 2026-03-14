@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
 export const metadata = {
-    title: 'Terms of Service | FreeToolsHub',
-    description: 'Terms of Service for using FreeToolsHub. Please read our guidelines on usage, liability, and user responsibilities.',
+    title: 'Terms of Service | Tools Repository',
+    description: 'Terms of Service for using Tools Repository. Please read our guidelines on usage, liability, and user responsibilities.',
 };
 
 export default function TermsPage() {
@@ -40,13 +40,13 @@ export default function TermsPage() {
 
                 <article style={{ color: '#334155', lineHeight: '1.7', fontSize: '1.0625rem' }}>
                     <p style={{ marginBottom: '32px' }}>
-                        Welcome to FreeToolsHub. By accessing or using our website and its suite of browser-based utility tools, you agree to be bound by these Terms of Service. If you do not agree to these terms, please refrain from using our platform.
+                        Welcome to Tools Repository. By accessing or using our website and its suite of browser-based utility tools, you agree to be bound by these Terms of Service. If you do not agree to these terms, please refrain from using our platform.
                     </p>
 
                     <section style={{ marginBottom: '40px' }}>
                         <h2 style={{ fontSize: '1.25rem', fontWeight: '700', color: '#0f172a', marginBottom: '16px' }}>1. Use of Service</h2>
                         <p style={{ marginBottom: '16px' }}>
-                            FreeToolsHub provides various free online tools for personal and commercial use. You are permitted to use these tools for their intended purposes, provided you comply with these terms.
+                            Tools Repository provides various free online tools for personal and commercial use. You are permitted to use these tools for their intended purposes, provided you comply with these terms.
                         </p>
                         <p>
                             You agree not to exploit our services for any illegal activities or to distribute malware. Any use of automated scripts or scrapers to access our tools in a manner that harms server performance is strictly prohibited.
@@ -56,7 +56,7 @@ export default function TermsPage() {
                     <section style={{ marginBottom: '40px' }}>
                         <h2 style={{ fontSize: '1.25rem', fontWeight: '700', color: '#0f172a', marginBottom: '16px' }}>2. Intellectual Property</h2>
                         <p>
-                            All content, design, and proprietary code on FreeToolsHub are protected by intellectual property laws. While many individual tools utilize open-source logic, the compilation, interface, and branding are the exclusive property of FreeToolsHub. You may not republish our site content or tools as your own without explicit permission.
+                            All content, design, and proprietary code on Tools Repository are protected by intellectual property laws. While many individual tools utilize open-source logic, the compilation, interface, and branding are the exclusive property of Tools Repository. You may not republish our site content or tools as your own without explicit permission.
                         </p>
                     </section>
 
@@ -70,21 +70,21 @@ export default function TermsPage() {
                     <section style={{ marginBottom: '40px' }}>
                         <h2 style={{ fontSize: '1.25rem', fontWeight: '700', color: '#0f172a', marginBottom: '16px' }}>4. Third-Party Links & Advertisements</h2>
                         <p>
-                            FreeToolsHub may contain links to third-party websites or display advertisements (e.g., via Google AdSense). These external sites are not operated by us, and we have no control over their content or privacy practices. Use of these links is at your own risk.
+                            Tools Repository may contain links to third-party websites or display advertisements (e.g., via Google AdSense). These external sites are not operated by us, and we have no control over their content or privacy practices. Use of these links is at your own risk.
                         </p>
                     </section>
 
                     <section style={{ marginBottom: '40px' }}>
                         <h2 style={{ fontSize: '1.25rem', fontWeight: '700', color: '#0f172a', marginBottom: '16px' }}>5. Disclaimer of Warranties</h2>
                         <p>
-                            The tools and services on FreeToolsHub are provided on an "as is" and "as available" basis. We make no warranties, expressed or implied, regarding the accuracy, reliability, or availability of our tools. We disclaim any responsibility for errors or omissions in the output of our tools.
+                            The tools and services on Tools Repository are provided on an "as is" and "as available" basis. We make no warranties, expressed or implied, regarding the accuracy, reliability, or availability of our tools. We disclaim any responsibility for errors or omissions in the output of our tools.
                         </p>
                     </section>
 
                     <section style={{ marginBottom: '40px' }}>
                         <h2 style={{ fontSize: '1.25rem', fontWeight: '700', color: '#0f172a', marginBottom: '16px' }}>6. Limitation of Liability</h2>
                         <p>
-                            To the maximum extent permitted by law, FreeToolsHub shall not be liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use our services, even if we have been advised of the possibility of such damages.
+                            To the maximum extent permitted by law, Tools Repository shall not be liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use our services, even if we have been advised of the possibility of such damages.
                         </p>
                     </section>
 
@@ -99,8 +99,8 @@ export default function TermsPage() {
                         <h2 style={{ fontSize: '1.25rem', fontWeight: '700', color: '#0f172a', marginBottom: '16px' }}>8. Contact Us</h2>
                         <p>
                             If you have any questions regarding these Terms, please contact us at{' '}
-                            <Link href="mailto:support@freetoolshub.com" style={{ color: '#6b46c1', fontWeight: '600', textDecoration: 'none' }}>
-                                support@freetoolshub.com
+                            <Link href="mailto:support@toolrepository.com" style={{ color: '#6b46c1', fontWeight: '600', textDecoration: 'none' }}>
+                                support@toolrepository.com
                             </Link>.
                         </p>
                     </section>

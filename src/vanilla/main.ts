@@ -17,7 +17,7 @@ app.innerHTML = `
   <header class="header">
     <a href="#/" class="header__logo">
       <span class="header__logo-icon">F</span>
-      <span>FreeToolsHub</span>
+      <span>Tools Repository</span>
     </a>
     <div class="header__search" id="search-wrapper">
       <span class="header__search-icon">🔍</span>
@@ -50,7 +50,7 @@ app.innerHTML = `
   <main class="main" id="main-content"></main>
   <footer class="footer">
     <div class="footer__inner">
-      <p class="footer__text">© ${new Date().getFullYear()} FreeToolsHub — 100% Free, No Signup</p>
+      <p class="footer__text">© ${new Date().getFullYear()} Tools Repository — 100% Free, No Signup</p>
       <div class="footer__links">
         <a href="#/">Home</a>
         <a href="#/about">About</a>

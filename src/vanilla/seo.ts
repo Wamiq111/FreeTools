@@ -2,17 +2,17 @@ import { ToolEntry } from './types';
 
 export function updateSEO(tool?: ToolEntry): void {
     if (tool) {
-        document.title = `${tool.name} — Free Online Tool | FreeToolsHub`;
+        document.title = `${tool.name} — Free Online Tool | Tools Repository`;
         setMeta('description', `${tool.description} Free, no signup, works in your browser.`);
-        setMeta('og:title', `${tool.name} — FreeToolsHub`);
+        setMeta('og:title', `${tool.name} — Tools Repository`);
         setMeta('og:description', tool.description);
     } else {
-        document.title = 'FreeToolsHub — Free Online Tools for Everyday Use';
+        document.title = 'Tools Repository — Free Online Tools for Everyday Use';
         setMeta(
             'description',
-            'FreeToolsHub offers 32 free online tools — text utilities, calculators, generators, and developer tools. No signup, no backend, 100% browser-based.'
+            'Tools Repository offers 32 free online tools — text utilities, calculators, generators, and developer tools. No signup, no backend, 100% browser-based.'
         );
-        setMeta('og:title', 'FreeToolsHub — Free Online Tools');
+        setMeta('og:title', 'Tools Repository — Free Online Tools');
         setMeta('og:description', '32 free browser-based utility tools. No signup required.');
     }
 }

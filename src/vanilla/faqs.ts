@@ -2,8 +2,8 @@ import { ToolEntry, FAQ } from './types';
 
 const GLOBAL_FAQS: FAQ[] = [
     {
-        question: "Is FreeToolsHub completely free to use?",
-        answer: "Yes! All tools on FreeToolsHub are 100% free with no hidden charges, subscriptions, or premium tiers. We aim to provide high-quality utilities for everyone."
+        question: "Is Tools Repository completely free to use?",
+        answer: "Yes! All tools on Tools Repository are 100% free with no hidden charges, subscriptions, or premium tiers. We aim to provide high-quality utilities for everyone."
     },
     {
         question: "Is my data secure when using these tools?",
@@ -90,11 +90,11 @@ const CATEGORY_FAQS: Record<string, FAQ[]> = {
 
 export const HOME_FAQS: FAQ[] = [
     {
-        question: "What is FreeToolsHub?",
-        answer: "FreeToolsHub is a comprehensive collection of over 100 free, online utility tools designed to simplify your daily digital tasks. From text formatting and calculators to developer utilities and health trackers, we have it all."
+        question: "What is Tools Repository?",
+        answer: "Tools Repository is a comprehensive collection of over 100 free, online utility tools designed to simplify your daily digital tasks. From text formatting and calculators to developer utilities and health trackers, we have it all."
     },
     {
-        question: "How many tools are currently available on FreeToolsHub?",
+        question: "How many tools are currently available on Tools Repository?",
         answer: "We currently offer over 102 premium tools across various categories, and we are constantly adding new ones based on user feedback."
     },
     {
@@ -102,7 +102,7 @@ export const HOME_FAQS: FAQ[] = [
         answer: "Yes, every single tool on our platform is completely free. We do not require any payments, subscriptions, or hidden fees."
     },
     {
-        question: "Is it safe to use FreeToolsHub for sensitive information?",
+        question: "Is it safe to use Tools Repository for sensitive information?",
         answer: "Yes. Most of our tools process data locally in your browser, meaning your sensitive information never touches our servers. Your privacy and security are our top priorities."
     },
     {
@@ -127,7 +127,7 @@ export function getToolFAQs(tool: ToolEntry): FAQ[] {
         },
         {
             question: `Is the ${tool.name} mobile-friendly?`,
-            answer: `Yes! Like all tools on FreeToolsHub, the ${tool.name} is fully responsive and works perfectly on smartphones and tablets.`
+            answer: `Yes! Like all tools on Tools Repository, the ${tool.name} is fully responsive and works perfectly on smartphones and tablets.`
         }
     ];
 

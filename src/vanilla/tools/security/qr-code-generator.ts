@@ -3,7 +3,7 @@ export function render(container: HTMLElement): void {
     <div class="section-gap">
       <div class="input-group">
         <label for="qr-input">Enter URL or text</label>
-        <input type="text" class="input-field" id="qr-input" placeholder="https://example.com" value="https://freetoolshub.com" />
+        <input type="text" class="input-field" id="qr-input" placeholder="https://example.com" value="https://toolrepository.com" />
       </div>
       <div class="tool-grid-2">
         <div class="input-group">
