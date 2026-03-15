@@ -206,7 +206,12 @@ async function generateQR(): Promise<void> {
             const ssid = (document.getElementById('wifi-ssid') as HTMLInputElement).value;
             const pass = (document.getElementById('wifi-pass') as HTMLInputElement).value;
             const enc = (document.getElementById('wifi-enc') as HTMLSelectElement).value;
-            data = `WIFI:T:${enc};S:${ssid};P:${pass};;`;
+            
+            const escape = (val: string) => val.replace(/([\\;:,])/g, '\\$1');
+            const escapedSsid = escape(ssid);
+            const escapedPass = escape(pass);
+            
+            data = `WIFI:S:${escapedSsid};T:${enc};P:${enc === 'nopass' ? '' : escapedPass};;`;
             break;
         case 'pdf':
             data = (document.getElementById('qr-pdf') as HTMLInputElement).value || '';
